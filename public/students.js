@@ -1,20 +1,5 @@
 import { students } from './data/all-data.js';
 
-//console.log(students[0]);
-
-/* const studentList = document.getElementById('studentList');
-
-let ul = document.createElement('ul');
-
-for (let i = 0; i < students.length; i++) {
-  const li = document.createElement('li');
-
-  li.innerHTML = students[i].firstName + ' ' + students[i].lastName;
-
-  ul.appendChild(li);
-}
-
-studentList.appendChild(ul); */
 
 const studentList = document.getElementById('studentList');
 let ul = document.createElement('ul');
